@@ -1,0 +1,10 @@
+/// scr_Player_dash_Step
+
+if(image_alpha > 0 )
+{
+    image_alpha -= .05;
+}
+else
+{
+    instance_destroy();
+}
